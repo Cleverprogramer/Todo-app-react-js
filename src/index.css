@@ -11,3 +11,128 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.icons{
+  font-size: 1.3rem;
+}
+.note-icon{
+  font-size: 2rem;
+}
+.icons-2{
+  font-size: 2rem;
+}
+.under{
+  text-decoration: line-through;
+}
+.note.done{
+  background-color: rgb(15, 20, 15);
+}
+
+.note.new{
+  background-color: #67d7cc;
+}
+.tt{
+  border: none;
+  resize: none;
+  background-color: #67d7cc;
+  font-size: 1.2rem;
+}
+textarea{
+  border: none;
+  resize: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+ 
+}
+textarea:focus{
+  border: none;
+  outline: none;
+}
+textarea::placeholder{
+  font-size: 1.2rem;
+}
+.tt:focus{
+  border: none;
+  outline: none;
+}
+.save{
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+.save:hover{
+  background-color: #ededed;
+  cursor: pointer;
+}
+
+.container{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 1rem;
+}
+.text{
+  width: 10rem;
+  max-width: 5rem;
+}
+.search{
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+.title{
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: .4rem;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-icon{
+  font-size: 1.8rem;
+}
+.search input{
+  border: none;
+  background-color: rgb(233, 233, 233);
+  font-size: 1.4rem;
+  width: 100%;
+}
+.search input:focus{
+  outline: none;
+  border: none;
+}
+.note{
+  white-space: pre-wrap;
+  background-color: #fef68a;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.note-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons-full{
+  display: flex;
+  align-items: center;
+}
+.notes-list{
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+}
+.delete-icon{
+  width: 1.6rem;
+}
